@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Workshop lilin aromaterapi</title>
+  <desc id="desc">Ilustrasi meja kerja pembuatan lilin aromaterapi dengan wadah, sumbu, botol aroma, dan tangan yang sedang berkarya.</desc>
+  <rect width="1600" height="900" fill="#031b35"/>
+  <rect x="720" y="110" width="760" height="560" rx="8" fill="#f3fbff" stroke="#ffffff" stroke-width="10"/>
+  <rect x="790" y="182" width="260" height="330" rx="8" fill="#ffffff" stroke="#031b35" stroke-width="10"/>
+  <rect x="1126" y="190" width="260" height="320" rx="8" fill="#fff4ad" stroke="#031b35" stroke-width="10"/>
+  <ellipse cx="920" cy="512" rx="130" ry="38" fill="#ffd400" stroke="#031b35" stroke-width="10"/>
+  <rect x="820" y="308" width="200" height="202" rx="18" fill="#ffd400" stroke="#031b35" stroke-width="10"/>
+  <path d="M920 292v94" stroke="#031b35" stroke-width="12" stroke-linecap="round"/>
+  <path d="M902 292c0-34 18-56 18-56s18 22 18 56" fill="#ff7ac8" stroke="#031b35" stroke-width="8"/>
+  <ellipse cx="1256" cy="510" rx="130" ry="38" fill="#007d7a" stroke="#031b35" stroke-width="10"/>
+  <rect x="1166" y="336" width="180" height="174" rx="18" fill="#ffffff" stroke="#031b35" stroke-width="10"/>
+  <path d="M1256 320v72" stroke="#031b35" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="1240" cy="290" r="34" fill="#ffd400" stroke="#031b35" stroke-width="8"/>
+  <rect x="1034" y="612" width="260" height="58" rx="8" fill="#ad005f" stroke="#031b35" stroke-width="10"/>
+  <rect x="780" y="620" width="154" height="48" rx="8" fill="#007d7a" stroke="#031b35" stroke-width="8"/>
+  <rect x="680" y="700" width="850" height="70" rx="8" fill="#ffd400" stroke="#031b35" stroke-width="10"/>
+  <path d="M965 692c-56-28-116-38-178-18" fill="none" stroke="#ffffff" stroke-width="26" stroke-linecap="round"/>
+  <path d="M1320 690c54-34 112-42 174-20" fill="none" stroke="#ffffff" stroke-width="26" stroke-linecap="round"/>
+  <rect x="72" y="132" width="488" height="124" rx="8" fill="#ffd400" opacity="0.96"/>
+  <rect x="72" y="300" width="396" height="36" rx="8" fill="#ffffff" opacity="0.88"/>
+  <rect x="72" y="360" width="488" height="36" rx="8" fill="#ffffff" opacity="0.78"/>
+  <rect x="72" y="420" width="346" height="36" rx="8" fill="#ffffff" opacity="0.78"/>
+  <circle cx="1510" cy="122" r="54" fill="#ffd400"/>
+  <circle cx="1450" cy="770" r="42" fill="#ff7ac8"/>
+  <circle cx="610" cy="104" r="34" fill="#00f0e8"/>
+</svg>

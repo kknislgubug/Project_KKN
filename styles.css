@@ -7,6 +7,7 @@
   --color-teal: #007d7a;
   --color-teal-dark: #005d5b;
   --color-magenta: #ad005f;
+  --color-lavender: #6f4bc3;
   --color-yellow: #ffd400;
   --color-yellow-soft: #fff4ad;
   --color-border: #9bb2c8;
@@ -46,6 +47,7 @@ body.high-contrast {
   --color-teal: #00f0e8;
   --color-teal-dark: #00f0e8;
   --color-magenta: #ff7ac8;
+  --color-lavender: #cdb7ff;
   --color-yellow: #fff200;
   --color-yellow-soft: #282400;
   --color-border: #ffffff;
@@ -245,7 +247,7 @@ body.high-contrast .site-header {
   align-items: center;
   background:
     linear-gradient(90deg, rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.62) 42%, rgba(0, 0, 0, 0.18)),
-    url("assets/hero-low-vision-reading.png") center / cover no-repeat;
+    url("assets/hero-candle-workshop.svg") center / cover no-repeat;
   color: #ffffff;
 }
 
@@ -466,7 +468,9 @@ p {
 }
 
 .story,
-.features {
+.features,
+.process,
+.gallery {
   padding-block: clamp(52px, 8vw, 96px);
 }
 
@@ -550,6 +554,103 @@ figcaption {
   color: var(--color-muted);
   font-size: calc(1rem * var(--font-scale));
   line-height: 1.55;
+}
+
+.process {
+  background: var(--color-navy-dark);
+  color: #ffffff;
+}
+
+.process .section-heading h2,
+.process .section-heading p {
+  color: #ffffff;
+}
+
+.process .eyebrow {
+  color: var(--color-yellow);
+}
+
+.process-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.process-card {
+  min-height: 100%;
+  padding: clamp(20px, 4vw, 28px);
+  border: 3px solid rgba(255, 255, 255, 0.78);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.process-number {
+  display: inline-grid;
+  place-items: center;
+  width: 54px;
+  height: 54px;
+  margin-bottom: 18px;
+  border: 3px solid #ffffff;
+  border-radius: var(--radius);
+  background: var(--color-yellow);
+  color: #000000;
+  font-size: 1.35rem;
+  font-weight: 900;
+}
+
+.process-card h3 {
+  color: #ffffff;
+  font-size: 1.42rem;
+}
+
+.process-card p {
+  margin-bottom: 0;
+  color: #f7fbff;
+  font-size: calc(1.03rem * var(--font-scale));
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.photo-card {
+  margin: 0;
+}
+
+.photo-card img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border: 4px solid var(--color-navy-dark);
+  border-radius: var(--radius);
+  background: var(--color-surface);
+}
+
+.photo-frame {
+  display: grid;
+  min-height: 260px;
+  place-items: center;
+  border: 4px dashed var(--color-navy-dark);
+  border-radius: var(--radius);
+  background:
+    linear-gradient(135deg, rgba(255, 212, 0, 0.38), rgba(0, 125, 122, 0.16)),
+    var(--color-surface);
+  color: var(--color-navy-dark);
+}
+
+.photo-frame span {
+  display: inline-grid;
+  min-width: 96px;
+  min-height: 96px;
+  place-items: center;
+  border: 3px solid var(--color-navy-dark);
+  border-radius: var(--radius);
+  background: var(--color-white);
+  color: var(--color-navy-dark);
+  font-size: 1.45rem;
+  font-weight: 900;
 }
 
 .features {
@@ -643,6 +744,32 @@ figcaption {
   content: "";
 }
 
+.quote-section {
+  display: grid;
+  grid-template-columns: minmax(0, 0.8fr) minmax(320px, 1.2fr);
+  gap: clamp(24px, 6vw, 64px);
+  align-items: start;
+  padding-block: clamp(54px, 8vw, 94px);
+}
+
+.quote-section blockquote {
+  margin: 0;
+  padding: clamp(22px, 5vw, 38px);
+  border: 3px solid var(--color-navy-dark);
+  border-left: 12px solid var(--color-yellow);
+  border-radius: var(--radius);
+  background: var(--color-white);
+  box-shadow: var(--shadow-soft);
+}
+
+.quote-section blockquote p {
+  margin-bottom: 0;
+  color: var(--color-navy-dark);
+  font-size: calc(1.38rem * var(--font-scale));
+  font-weight: 900;
+  line-height: 1.5;
+}
+
 .callout {
   display: flex;
   align-items: center;
@@ -690,6 +817,7 @@ address {
   .story-block,
   .story-block-reverse,
   .checklist,
+  .quote-section,
   .footer-grid {
     grid-template-columns: 1fr;
   }
@@ -700,6 +828,11 @@ address {
   }
 
   .feature-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .process-grid,
+  .gallery-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
@@ -754,7 +887,7 @@ address {
     min-height: 78vh;
     background:
       linear-gradient(180deg, rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.62)),
-      url("assets/hero-low-vision-reading.png") center / cover no-repeat;
+      url("assets/hero-candle-workshop.svg") center / cover no-repeat;
   }
 
   .hero h1 {
@@ -762,8 +895,14 @@ address {
   }
 
   .hero-proof,
-  .feature-grid {
+  .feature-grid,
+  .process-grid,
+  .gallery-grid {
     grid-template-columns: 1fr;
+  }
+
+  .photo-frame {
+    min-height: 220px;
   }
 
   .tool-panel {
@@ -787,9 +926,12 @@ address {
   }
 
   .feature-card,
+  .process-card,
   .tool-panel,
   .story-image img,
+  .photo-frame,
   .callout,
+  .quote-section blockquote,
   .checklist-list li {
     border-width: 4px;
   }

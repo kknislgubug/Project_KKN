@@ -1,11 +1,13 @@
-# Lentera Akses
+# Lilin Asa
 
-Static website untuk ruang baca digital yang ramah pengguna low vision. Tampilan dibuat lebih menarik dengan hero image, kontras kuat, typography besar, kontrol tampilan, dan visual pendukung.
+Static website storytelling tentang difabel yang membuat lilin aromaterapi. Halaman ini menampilkan cerita, progress pembuatan lilin, slot foto dokumentasi, dan kontrol tampilan ramah low vision.
 
 ## Fitur
 
-- Hero visual bitmap untuk kesan pertama yang lebih hidup.
-- Bahasa Indonesia dan copy yang lebih dekat dengan pengguna.
+- Cerita utama tentang difabel pembuat lilin aromaterapi.
+- Timeline 6 tahap pembuatan lilin.
+- Slot foto dokumentasi yang bisa diganti dengan foto asli kegiatan.
+- Ilustrasi hero dan proses pembuatan lilin.
 - Ukuran teks besar dengan line-height lega.
 - Kontrol perbesar/perkecil teks.
 - Toggle kontras tinggi.
@@ -14,7 +16,6 @@ Static website untuk ruang baca digital yang ramah pengguna low vision. Tampilan
 - Navigasi sticky dengan target klik besar.
 - Skip link untuk pengguna keyboard.
 - Focus ring tebal dan jelas.
-- Ilustrasi pendukung dengan alt text dan caption.
 - Layout responsif untuk desktop, tablet, dan ponsel.
 - Tanpa dependency eksternal.
 
@@ -27,11 +28,21 @@ Project_KKN/
 |-- script.js
 |-- README.md
 `-- assets/
-    |-- hero-low-vision-reading.png
-    |-- story-focus-panel.svg
-    |-- story-contrast-tools.svg
-    `-- story-clear-route.svg
+    |-- hero-candle-workshop.svg
+    |-- story-aroma-selection.svg
+    |-- story-wax-prep.svg
+    `-- story-candle-pour.svg
 ```
+
+## Cara Mengganti Slot Foto
+
+Di `index.html`, cari bagian `gallery-grid`. Ganti elemen `div.photo-frame` dengan gambar asli, misalnya:
+
+```html
+<img src="assets/foto-proses-01.jpg" alt="Peserta difabel mengenal bahan pembuatan lilin aromaterapi." />
+```
+
+Simpan file foto di folder `assets/`, lalu sesuaikan caption pada `figcaption`.
 
 ## Cara Preview
 

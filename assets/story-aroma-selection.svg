@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-labelledby="title desc">
+  <title id="title">Memilih aroma lilin</title>
+  <desc id="desc">Botol aroma lavender, serai, dan vanila disusun di atas meja bersama lilin kecil.</desc>
+  <rect width="900" height="620" fill="#f3fbff"/>
+  <rect x="58" y="58" width="784" height="504" rx="8" fill="#ffffff" stroke="#031b35" stroke-width="12"/>
+  <rect x="118" y="396" width="664" height="70" rx="8" fill="#ffd400" stroke="#031b35" stroke-width="8"/>
+  <rect x="168" y="170" width="118" height="226" rx="18" fill="#cdb7ff" stroke="#031b35" stroke-width="10"/>
+  <rect x="384" y="130" width="118" height="266" rx="18" fill="#e8f6f5" stroke="#031b35" stroke-width="10"/>
+  <rect x="600" y="190" width="118" height="206" rx="18" fill="#fff4ad" stroke="#031b35" stroke-width="10"/>
+  <rect x="190" y="120" width="74" height="58" rx="8" fill="#031b35"/>
+  <rect x="406" y="80" width="74" height="58" rx="8" fill="#031b35"/>
+  <rect x="622" y="140" width="74" height="58" rx="8" fill="#031b35"/>
+  <circle cx="227" cy="300" r="32" fill="#ad005f"/>
+  <circle cx="443" cy="300" r="32" fill="#007d7a"/>
+  <circle cx="659" cy="300" r="32" fill="#ffd400" stroke="#031b35" stroke-width="6"/>
+  <path d="M292 454c42 38 96 42 154 14" fill="none" stroke="#031b35" stroke-width="18" stroke-linecap="round"/>
+  <path d="M500 468c58 28 112 22 162-18" fill="none" stroke="#031b35" stroke-width="18" stroke-linecap="round"/>
+</svg>
