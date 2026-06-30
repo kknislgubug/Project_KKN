@@ -28,6 +28,7 @@ Project_KKN/
 |-- script.js
 |-- README.md
 `-- assets/
+    |-- hero-candle-workshop-premium.png
     |-- hero-candle-workshop.svg
     |-- story-aroma-selection.svg
     |-- story-wax-prep.svg

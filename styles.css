@@ -247,7 +247,7 @@ body.high-contrast .site-header {
   align-items: center;
   background:
     linear-gradient(90deg, rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.62) 42%, rgba(0, 0, 0, 0.18)),
-    url("assets/hero-candle-workshop.svg") center / cover no-repeat;
+    url("assets/hero-candle-workshop-premium.png") center / cover no-repeat;
   color: #ffffff;
 }
 
@@ -887,7 +887,7 @@ address {
     min-height: 78vh;
     background:
       linear-gradient(180deg, rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.62)),
-      url("assets/hero-candle-workshop.svg") center / cover no-repeat;
+      url("assets/hero-candle-workshop-premium.png") center / cover no-repeat;
   }
 
   .hero h1 {
