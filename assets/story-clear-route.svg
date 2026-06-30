@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-labelledby="title desc">
+  <title id="title">Rute navigasi jelas</title>
+  <desc id="desc">Ilustrasi jalur tebal yang menghubungkan beberapa titik sampai tujuan akhir.</desc>
+  <rect width="900" height="620" fill="#f3fbff"/>
+  <rect x="58" y="58" width="784" height="504" rx="8" fill="#ffffff" stroke="#031b35" stroke-width="12"/>
+  <path d="M166 424c88-172 180-246 304-220 112 24 160 138 268 42" fill="none" stroke="#007d7a" stroke-width="34" stroke-linecap="round"/>
+  <path d="M166 424c88-172 180-246 304-220 112 24 160 138 268 42" fill="none" stroke="#ffd400" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="166" cy="424" r="58" fill="#ffd400" stroke="#031b35" stroke-width="12"/>
+  <circle cx="470" cy="204" r="58" fill="#ffffff" stroke="#ad005f" stroke-width="12"/>
+  <circle cx="738" cy="246" r="70" fill="#031b35" stroke="#ffd400" stroke-width="12"/>
+  <path d="M710 246h56M738 218v56" stroke="#ffffff" stroke-width="18" stroke-linecap="round"/>
+  <rect x="146" y="116" width="232" height="38" rx="8" fill="#031b35"/>
+  <rect x="146" y="176" width="332" height="24" rx="8" fill="#3f4752"/>
+  <rect x="146" y="222" width="278" height="24" rx="8" fill="#3f4752"/>
+</svg>

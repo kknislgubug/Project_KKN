@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-labelledby="title desc">
+  <title id="title">Alat kontras dan teks</title>
+  <desc id="desc">Ilustrasi tombol pengaturan untuk ukuran huruf, kontras, dan spasi baca.</desc>
+  <rect width="900" height="620" fill="#ffffff"/>
+  <rect x="70" y="70" width="760" height="480" rx="8" fill="#031b35" stroke="#031b35" stroke-width="12"/>
+  <rect x="116" y="118" width="668" height="96" rx="8" fill="#ffd400"/>
+  <rect x="116" y="258" width="188" height="142" rx="8" fill="#ffffff" stroke="#ffd400" stroke-width="8"/>
+  <rect x="356" y="258" width="188" height="142" rx="8" fill="#00f0e8" stroke="#ffffff" stroke-width="8"/>
+  <rect x="596" y="258" width="188" height="142" rx="8" fill="#ff7ac8" stroke="#ffffff" stroke-width="8"/>
+  <path d="M162 350h96M210 302v96" stroke="#031b35" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="450" cy="329" r="44" fill="#031b35"/>
+  <path d="M644 312h92M644 350h92" stroke="#031b35" stroke-width="18" stroke-linecap="round"/>
+  <rect x="116" y="448" width="456" height="34" rx="8" fill="#ffffff"/>
+  <rect x="116" y="496" width="592" height="20" rx="8" fill="#ffffff" opacity="0.78"/>
+</svg>
